@@ -42,7 +42,7 @@ void Shader::Bind()
     glUseProgram(m_program);
 }
 
-static GLuint CreateShader(const std::string& text, unsigned int shaderType)
+static GLuint CreateShader(const std::string& text, GLenum shaderType)
 {
     GLuint shader = glCreateShader(shaderType);
 
