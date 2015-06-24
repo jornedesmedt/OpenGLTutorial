@@ -34,3 +34,7 @@ include/SDL2/
 *.app
 lib
 obj
+/*.pdb
+/*.cbp
+/*.depend
+/*.layout
